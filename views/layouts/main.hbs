@@ -1,0 +1,14 @@
+{{>head}}
+
+<body>
+    <div class='container'>
+        <h1>Список задач</h1>
+        <form action="/" class="todo-form" method="POST">
+            <input class='newtask' id='task' name='task' type="text" placeholder="enter" required>
+            <button class='btn' type="submit">Add Card</button>
+        </form>
+        {{>tasks}}
+    </div>
+
+{{>footer}}
+</body>

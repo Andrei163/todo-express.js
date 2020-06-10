@@ -1,0 +1,11 @@
+<ul class='tasklist'>
+
+    {{#if tasks.length}}
+    {{#each tasks }}
+    <li> <span><span class="create_index"></span> {{task}} </span></li>
+    {{/each}}
+    {{else}}
+    <p>Активных задач нет</p>
+    {{/if}}
+</ul>
+
